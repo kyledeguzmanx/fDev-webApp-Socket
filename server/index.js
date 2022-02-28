@@ -15,7 +15,7 @@ const io = new Server(server, {
 });
 
 io.on("connection", (socket) => {//detecs if someone connects to socket server
-    console.log(socket.id); //when someone opens a website, they a unique id
+    console.log(`User Connected : ${socket.id}`); //when someone opens a website, they a unique id
 
 
     socket.on("disconnect", () => { //when someone closes tab
