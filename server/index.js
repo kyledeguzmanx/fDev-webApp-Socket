@@ -17,6 +17,10 @@ const io = new Server(server, {
 io.on("connection", (socket) => {//detecs if someone connects to socket server
     console.log(`User Connected : ${socket.id}`); //when someone opens a website, they a unique id
 
+    socket.on("join_room", (data) => {
+        socket.join(data);
+        console.log(`user with id: ${socket.id} joined room ${data}`)
+    });
 
     socket.on("disconnect", () => { //when someone closes tab
         console.log("User Disconnected", socket.id);
