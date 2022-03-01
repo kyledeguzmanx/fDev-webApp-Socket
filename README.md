@@ -10,6 +10,8 @@ React
 Socket IO  
 
 ## SCREENSHOTS
+### PHASE 1 -- BACKEND FULLY FUNCTIONAL
+![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen1.jpg)
 
 
 ## CREDITS
