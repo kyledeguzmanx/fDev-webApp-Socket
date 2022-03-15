@@ -8,12 +8,12 @@ const socket = io.connect("http://localhost:3001")
 function App() {
     const [username, setUsername] = useState("");
     const [room, setRoom] = useState("");
-    const [showChat, setShowCat] = useState(false);
+    const [showChat, setShowChat] = useState(false);
 
     const joinRoom = () => {
       if(username !== "" && room !== ""){
         socket.emit("join_room", room);
-        setShowCat(true);
+        setShowChat(true);
       }
     }
   return (

@@ -32,7 +32,7 @@ function Chat({socket, username, room}){
             <div className="chat-body">
                 {
                     messageList.map((messageContent) => {
-                        return <p>{messageContent.message}</p>
+                        return <p>{messageContent.author}: {messageContent.message}</p>
                     })
                 }
             </div>
