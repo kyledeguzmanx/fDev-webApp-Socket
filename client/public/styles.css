@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 body, html {
   margin: 0;
   padding: 0;
+}
+
+html {
+  background: #070024;
+  background: linear-gradient(25deg, #070024 3%, #5735b3 73%, #0038ff 100%);
 }
 
 body #root .App .joinChat {
@@ -21,8 +27,12 @@ body #root .App .joinChat {
 }
 
 body #root .App .joinChat h3 {
-  font-size: 40px;
+  font-size: 60px;
+  line-height: 0.2;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  font-family: 'League Gothic', sans-serif;
+  color: white;
 }
 
 body #root .App .joinChat input {
