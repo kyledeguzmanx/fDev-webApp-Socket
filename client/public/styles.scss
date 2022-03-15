@@ -1,0 +1,15 @@
+body #root .App{
+    .joinChat{
+        //background-color: red;
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        
+        justify-content: center;
+        align-items: center;
+
+        input, button{
+            height: 35px;
+        }
+    }
+}
