@@ -17,3 +17,4 @@ Socket IO
 
 ## CREDITS
 Tutorial By [PedroTech](https://www.youtube.com/channel/UC8S4rDRZn6Z_StJ-hh7ph8g)
+[CSS Gradient IO](https://cssgradient.io/)
