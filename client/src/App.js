@@ -2,8 +2,8 @@ import io from 'socket.io-client'; //used to backend to front end
 import {useState} from 'react';
 import Chat from './Components/Chat'
 
-//const socket = io.connect("http://localhost:3001")
-const socket = io.connect("https://kyledeguzman-chitchat.herokuapp.com/");
+const socket = io.connect("http://localhost:3001")
+//const socket = io.connect("https://kyledeguzman-chitchat.herokuapp.com/");
 
 function App() {
     const [username, setUsername] = useState("");
