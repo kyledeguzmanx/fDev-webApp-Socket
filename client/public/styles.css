@@ -37,8 +37,11 @@ body #root .App .joinChat h3 {
 
 body #root .App .joinChat input {
   height: 35px;
-  width: 20vw;
+  width: 300px;
   margin-bottom: 25px;
+  border-radius: 13px;
+  padding: 5px;
+  padding-left: 25px;
 }
 
 body #root .App .joinChat button {

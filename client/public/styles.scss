@@ -29,8 +29,11 @@ body #root .App{
 
         input{
             height: 35px;
-            width: 20vw;
+            width: 300px;
             margin-bottom: 25px;
+            border-radius: 13px;
+            padding: 5px;
+            padding-left: 25px;
         }
         button{
             display: block;
