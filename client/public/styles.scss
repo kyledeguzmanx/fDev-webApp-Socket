@@ -2,13 +2,23 @@ body #root .App{
     .joinChat{
         //background-color: red;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 100vh;
         
         justify-content: center;
         align-items: center;
 
-        input, button{
+        h3{
+            font-size: 40px;
+        }
+
+        input{
+            height: 35px;
+            width: 20vw;
+            margin-bottom: 25px;
+        }
+        button{
+            display: block;
             height: 35px;
         }
     }

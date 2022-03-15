@@ -2,10 +2,10 @@ body #root .App .joinChat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -15,7 +15,18 @@ body #root .App .joinChat {
           align-items: center;
 }
 
-body #root .App .joinChat input, body #root .App .joinChat button {
+body #root .App .joinChat h3 {
+  font-size: 40px;
+}
+
+body #root .App .joinChat input {
+  height: 35px;
+  width: 20vw;
+  margin-bottom: 25px;
+}
+
+body #root .App .joinChat button {
+  display: block;
   height: 35px;
 }
 /*# sourceMappingURL=styles.css.map */
