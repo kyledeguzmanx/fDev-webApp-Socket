@@ -47,5 +47,10 @@ body #root .App .joinChat input {
 body #root .App .joinChat button {
   display: block;
   height: 35px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
