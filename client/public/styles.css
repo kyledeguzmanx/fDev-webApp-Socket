@@ -53,4 +53,9 @@ body #root .App .joinChat button {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+body #root .App .chatroomActive {
+  height: 100vh;
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
