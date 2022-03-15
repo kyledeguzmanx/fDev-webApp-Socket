@@ -1,4 +1,3 @@
-import './App.css';
 import io from 'socket.io-client'; //used to backend to front end
 import {useState} from 'react';
 import Chat from './Components/Chat'
