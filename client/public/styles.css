@@ -22,6 +22,7 @@ body #root .App .joinChat {
 
 body #root .App .joinChat h3 {
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 body #root .App .joinChat input {
