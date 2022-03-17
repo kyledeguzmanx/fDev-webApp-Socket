@@ -48,5 +48,30 @@ body #root .App{
     .chatroomActive{
         height: 100vh;
         color: white;
+        overflow: hidden;
+
+        h1{
+            text-align: center;
+        }
+        .chat-footer{
+            position: absolute;
+            bottom:20px;
+            width: 100vw;
+                text-align: center;
+                input{
+                    width:80vw;
+                    padding: 20px 30px;
+                    border-radius: 20px;
+                    text-align: left;
+                }
+                button{
+                    width: 5vw;
+                    height: 5vw;
+                    border-radius: 10px;
+                } 
+            
+
+        }
+
     }
 }

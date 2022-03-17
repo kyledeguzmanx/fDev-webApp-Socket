@@ -57,5 +57,30 @@ body #root .App .joinChat button {
 body #root .App .chatroomActive {
   height: 100vh;
   color: white;
+  overflow: hidden;
+}
+
+body #root .App .chatroomActive h1 {
+  text-align: center;
+}
+
+body #root .App .chatroomActive .chat-footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100vw;
+  text-align: center;
+}
+
+body #root .App .chatroomActive .chat-footer input {
+  width: 80vw;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+body #root .App .chatroomActive .chat-footer button {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
