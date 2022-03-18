@@ -75,6 +75,7 @@ body #root .App .chatroomActive .chat-body {
   width: 60vw;
   height: 50%;
   background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
 
 body #root .App .chatroomActive .chat-footer {
