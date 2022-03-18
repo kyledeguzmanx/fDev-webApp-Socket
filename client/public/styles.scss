@@ -46,12 +46,17 @@ body #root .App{
         }
     }
     .chatroomActive{
+        margin-top: -21px;
         height: 100vh;
         color: white;
         overflow: hidden;
 
         h1{
             text-align: center;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px 0;
+            text-transform: uppercase;
+            font-family: 'League Gothic', sans-serif;
         }
         .chat-footer{
             position: absolute;
