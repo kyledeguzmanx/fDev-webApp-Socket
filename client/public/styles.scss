@@ -61,6 +61,11 @@ body #root .App{
             font-size: 60px;
             letter-spacing: 5px;
         }
+        .chat-body{
+            width: 60vw;
+            height: 50%;
+            background-color: rgba(0,0,0,0.5);
+        }
         .chat-footer{
             position: absolute;
             bottom:20px;

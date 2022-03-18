@@ -71,6 +71,12 @@ body #root .App .chatroomActive h1 {
   letter-spacing: 5px;
 }
 
+body #root .App .chatroomActive .chat-body {
+  width: 60vw;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 body #root .App .chatroomActive .chat-footer {
   position: absolute;
   bottom: 20px;
