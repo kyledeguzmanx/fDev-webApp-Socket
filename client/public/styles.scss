@@ -46,7 +46,7 @@ body #root .App{
         }
     }
     .chatroomActive{
-        margin-top: -21px;
+        margin-top: -40px;
         height: 100vh;
         color: white;
         overflow: hidden;
@@ -57,6 +57,8 @@ body #root .App{
             padding: 10px 0;
             text-transform: uppercase;
             font-family: 'League Gothic', sans-serif;
+            font-size: 60px;
+            letter-spacing: 5px;
         }
         .chat-footer{
             position: absolute;

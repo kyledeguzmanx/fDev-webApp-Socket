@@ -55,7 +55,7 @@ body #root .App .joinChat button {
 }
 
 body #root .App .chatroomActive {
-  margin-top: -21px;
+  margin-top: -40px;
   height: 100vh;
   color: white;
   overflow: hidden;
@@ -67,6 +67,8 @@ body #root .App .chatroomActive h1 {
   padding: 10px 0;
   text-transform: uppercase;
   font-family: 'League Gothic', sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
 }
 
 body #root .App .chatroomActive .chat-footer {
