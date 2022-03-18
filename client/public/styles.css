@@ -80,7 +80,7 @@ body #root .App .chatroomActive .chat-footer input {
 
 body #root .App .chatroomActive .chat-footer button {
   width: 5vw;
-  height: 5vw;
+  height: 62px;
   border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
