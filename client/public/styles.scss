@@ -46,12 +46,13 @@ body #root .App{
         }
     }
     .chatroomActive{
-        margin-top: -40px;
+        
         height: 100vh;
         color: white;
         overflow: hidden;
 
         h1{
+            margin-top: 0px;
             text-align: center;
             background-color: rgba(0,0,0,0.5);
             padding: 10px 0;
