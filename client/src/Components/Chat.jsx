@@ -26,13 +26,23 @@ function Chat({socket, username, room}){
     return(
         <div className="chatroomActive">
             <h1> Room ID: {room.toLowerCase()}</h1>
-            <div className="chat-header">
-                <p> Live Chat</p>
-            </div>
+            {/*<div className="chat-header">
+                //<p> Live Chat</p>
+            </div>*/}
             <div className="chat-body">
                 {
                     messageList.map((messageContent) => {
-                        return <div className="chatbox"> <p >{messageContent.author}: {messageContent.message}</p> </div>
+                        return (
+                            <div className="chatElement">
+                                <p className="chatName">{messageContent.author.charAt(0).toUpperCase() + messageContent.author.slice(1)}</p>
+                                <div className="chatbox"> 
+                                    <p> {messageContent.message}</p>
+                                </div>
+                                <p className="chatTime">{messageContent.time}</p> 
+                            </div>
+                            
+                            
+                            )
                     })
                 }
             </div>
