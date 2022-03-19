@@ -14,6 +14,7 @@ Socket IO
 ![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen1.jpg)
 ### PHASE 2 -- FRONT END (in-progress)
 ![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen2.jpg)
+![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen3.jpg)
 
 ## CREDITS
 Tutorial By [PedroTech](https://www.youtube.com/channel/UC8S4rDRZn6Z_StJ-hh7ph8g)
