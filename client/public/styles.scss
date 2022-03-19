@@ -62,10 +62,32 @@ body #root .App{
             letter-spacing: 5px;
         }
         .chat-body{
-            width: 70vw;
-            height: 70%;
+            width: 80vw;
+            height: 60%;
             background-color: rgba(0,0,0,0.5);
             margin: 0 auto;
+            overflow: scroll;
+            overflow-x: hidden;
+
+            .chatbox{
+                width: 80%;
+                min-height: 2vh;
+                background-color: #6096ba;
+                margin: 0 auto;
+                margin-top: 40px;
+                border-radius: 20px;
+                overflow: hidden;
+                overflow-x: hidden;
+                overflow-y: hidden;
+
+                p{
+                    margin-left: 40px;
+                    margin-top: 20px;
+                    padding-bottom: 10px;;
+                    font-size: 20px;
+                }
+            }
+            
         }
         .chat-footer{
             position: absolute;
