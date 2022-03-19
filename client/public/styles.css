@@ -78,22 +78,35 @@ body #root .App .chatroomActive .chat-body {
   margin: 0 auto;
   overflow: scroll;
   overflow-x: hidden;
+  padding-top: 30px;
 }
 
-body #root .App .chatroomActive .chat-body .chatbox {
+body #root .App .chatroomActive .chat-body .chatElement .chatName {
+  font-family: 'League Gothic', sans-serif;
+  margin-left: 5vw;
+  font-size: 30px;
+  line-height: 0.2;
+}
+
+body #root .App .chatroomActive .chat-body .chatElement .chatTime {
+  text-align: right;
+  margin-right: 10vw;
+}
+
+body #root .App .chatroomActive .chat-body .chatElement .chatbox {
   width: 80%;
   min-height: 2vh;
   background-color: #6096ba;
   margin: 0 auto;
-  margin-top: 40px;
   border-radius: 20px;
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-body #root .App .chatroomActive .chat-body .chatbox p {
+body #root .App .chatroomActive .chat-body .chatElement .chatbox p {
   margin-left: 40px;
+  margin-right: 40px;
   margin-top: 20px;
   padding-bottom: 10px;
   font-size: 20px;

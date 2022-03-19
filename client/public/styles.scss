@@ -61,6 +61,7 @@ body #root .App{
             font-size: 60px;
             letter-spacing: 5px;
         }
+        
         .chat-body{
             width: 80vw;
             height: 60%;
@@ -68,26 +69,40 @@ body #root .App{
             margin: 0 auto;
             overflow: scroll;
             overflow-x: hidden;
+            padding-top: 30px;
 
-            .chatbox{
-                width: 80%;
-                min-height: 2vh;
-                background-color: #6096ba;
-                margin: 0 auto;
-                margin-top: 40px;
-                border-radius: 20px;
-                overflow: hidden;
-                overflow-x: hidden;
-                overflow-y: hidden;
-
-                p{
-                    margin-left: 40px;
-                    margin-top: 20px;
-                    padding-bottom: 10px;;
-                    font-size: 20px;
+            .chatElement{
+                
+                .chatName{
+                    font-family: 'League Gothic', sans-serif;
+                    margin-left: 5vw;
+                    font-size: 30px;
+                    line-height: 0.2;
+                }
+                .chatTime{
+                    text-align:right;
+                    margin-right: 10vw;
+    
+                }
+                .chatbox{
+                    width: 80%;
+                    min-height: 2vh;
+                    background-color: #6096ba;
+                    margin: 0 auto;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+    
+                    p{
+                        margin-left: 40px;
+                        margin-right: 40px;
+                        margin-top: 20px;
+                        padding-bottom: 10px;;
+                        font-size: 20px;
+                    }
                 }
             }
-            
         }
         .chat-footer{
             position: absolute;
