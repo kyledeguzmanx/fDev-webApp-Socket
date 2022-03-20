@@ -130,5 +130,6 @@ body #root .App .chatroomActive .chat-footer button {
   width: 5vw;
   height: 62px;
   border-radius: 10px;
+  background: linear-gradient(265.57deg, #0216C7 0.98%, rgba(82, 13, 227, 0.93) 70.42%);
 }
 /*# sourceMappingURL=styles.css.map */
