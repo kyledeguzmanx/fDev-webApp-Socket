@@ -43,6 +43,11 @@ body #root .App{
             padding-bottom: 20px;
             padding-left: 40px;
             padding-right: 40px; 
+            width: 142px;
+            height: 44px;
+            font-size: 18px;
+            background: linear-gradient(265.57deg, #0216C7 0.98%, rgba(82, 13, 227, 0.93) 70.42%);
+            color: white;
         }
     }
     .chatroomActive{
@@ -119,8 +124,6 @@ body #root .App{
                     width: 5vw;
                     height: 162px;
                     border-radius: 10px;
-                    background: linear-gradient(265.57deg, #0216C7 0.98%, rgba(82, 13, 227, 0.93) 70.42%);
-                    
                 } 
         }
 
