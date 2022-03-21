@@ -15,6 +15,10 @@ Socket IO
 ### PHASE 2 -- FRONT END (in-progress)
 ![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen2.jpg)
 ![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen3.jpg)
+![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen2.jpg)
+⬆️⬆️Messages appear when in the same chatroom⬆️⬆️
+![](https://github.com/kyledeguzmanx/fDev-webApp-Socket/blob/master/Screen3.jpg)
+⬆️⬆️Messages DO NOT appear when in different chatrooms⬆️⬆️
 
 ## CREDITS
 Tutorial By [PedroTech](https://www.youtube.com/channel/UC8S4rDRZn6Z_StJ-hh7ph8g)
