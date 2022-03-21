@@ -22,7 +22,7 @@ function App() {
         (<section className='joinChat'>
           <h3>Join a Chatroom</h3>
           <input type="text" placeholder="Enter name" onChange = {(event) => {setUsername(event.target.value);}}></input>
-          <input type="text" placeholder="Enter Room ID" onChange = {(event) => {setRoom(event.target.value);}}></input>
+          <input type="text" placeholder="Enter Room ID" onChange = {(event) => {setRoom(event.target.value.toLowerCase());}}></input>
           <button onClick={joinRoom}>Join</button>
         </section>)
       : 
