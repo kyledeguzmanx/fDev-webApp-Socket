@@ -14,6 +14,7 @@ function Chat({socket, username, room}){
             }
             setMessageList((list) => [...list, messageData]);
             await socket.emit("send_message", messageData);
+            setCurrentMessage("");
         }
     };
     useEffect(() => {
@@ -47,7 +48,7 @@ function Chat({socket, username, room}){
                 }
             </div>
             <div className="chat-footer">
-                <input id="room-submit-btn" type="text" placeholder="Enter message" onChange={(event) => {setCurrentMessage(event.target.value)}}></input>
+                <input id="room-submit-btn" type="text" placeholder="Enter message" value={currentMessage} onChange={(event) => {setCurrentMessage(event.target.value)}}></input>
                 <button id="join-chatroom-btn"onClick={SendMessage} >&#9658;</button>
             </div>
         </div>
