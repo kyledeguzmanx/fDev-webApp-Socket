@@ -28,7 +28,7 @@ function Chat({socket, username, room}){
         <div className="chatroomActive">
             <h1> Room ID: {room.toLowerCase()}</h1>
             {/*<div className="chat-header">
-                //<p> Live Chat</p>
+            
             </div>*/}
             <div className="chat-body">
                 {
