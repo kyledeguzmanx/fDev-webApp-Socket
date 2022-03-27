@@ -27,9 +27,7 @@ function Chat({socket, username, room}){
     return(
         <div className="chatroomActive">
             <h1> Room ID: {room.toLowerCase()}</h1>
-            {/*<div className="chat-header">
-            
-            </div>*/}
+            {/**/}
             <div className="chat-body">
                 {
                     messageList.map((messageContent) => {
