@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 function Chat({socket, username, room}){
     const [currentMessage, setCurrentMessage] = useState("");
     const [messageList, setMessageList] = useState([]);
